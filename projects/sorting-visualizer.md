@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/sorting_visualizer.png
 title: "Sorting Visualizer"
 date: 2022-01-07
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "A React web app that I developed to visualize the employment of various sorting algorithms on unorganized data."
 ---
 
-<img class="img-fluid" src="../img/sorting_visualizer.png">
+<img class="img-fluid" src="../img/react_app.png">
 
 This sorting algorithm visualizer tool was created to help myself and others visualize how various sorting algorithms worked to sort data in real-time. By being able to visually see each step of the algorithms play out, it helps the user determine the effectivness of these algorithms. Most importantly, it allows the user to visually see how much a particular algorithms solving time scales with input size.
 
