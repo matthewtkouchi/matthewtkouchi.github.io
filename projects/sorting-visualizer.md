@@ -20,10 +20,7 @@ Below is a brief explanation of the capabilities of the app.
 
 <hr>
 
-<pre>
 The webpage allows you to select an array size for the unorganized data, adjust the speed of the solver, and choose the sorting algorithm to use. Once you've configured your preferences, you can run the solver, and the sorting algorithm will play out on the unorganized data in real-time. During the visualization, the indices (idx values) in the array that the algorithm is currently focusing on will be highlighted in red. As the algorithm determines that certain indices are in their sorted positions, they will be highlighted in green. The visualizer achieves this by capturing snapshots of the array after each iteration of the selected sorting algorithm. These snapshots are then refreshed on the webpage, allowing you to see the step-by-step progress of the sorting process.
-
-</pre>
 
 <hr>
 
