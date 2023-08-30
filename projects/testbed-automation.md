@@ -22,11 +22,11 @@ An example radiation pattern is shown here (source:https://www.sciencedirect.com
 <hr>
 To automate this type of test on the current testbed of the liquid-metal electronics group, I created a few scripts that use PyVisa to communicate with various 
 programmable interfaces of the hardware equipment. For example, the motion controller we used to move the antenna 180 degrees in the azimuth direction is controlled
-using a GPIB interface, which is made possible using Serial.
+using a GPIB interface, which is made possible using Serial. However, the code can be modified to work for various interface protocols such as ethernet, usb, etc.
 
-Hers a GPIB connector: <br>
+Heres an image of a GPIB connection: <br>
 <img class="img-fluid" src="../img/gpib.jpg">
 <hr>
-The current implementation of the automation scripts are made especially for the equipment in the POST 427 labratory. In the future I plan to add a front-end interface using tkinter to improve the quality-of-life of the application.
+I worked with another undergraduate student, David Kimura, on these scripts. We made the scripts since we were both in the same liquid-metal electronics group and the manual testing of various DUT's took up a lot of our free time. Using the script we were able to turn 1 hour tests into 15 minute tests which greatly helped our productivity over the Fall 2022 semester. The current implementation of the automation scripts are made especially for the equipment in the POST 427 labratory. In the future I plan to add a front-end interface using tkinter to improve the quality-of-life of the application.
 <hr>
 Source: <a href="https://github.com/matthewtkouchi/automated_test_bed"><i class="large github icon "></i>matthewtkouchi/testbed-automation</a>.
