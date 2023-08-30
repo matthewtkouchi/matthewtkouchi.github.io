@@ -19,7 +19,7 @@ For example, every antenna has a 360 degree radiation pattern measurement done t
 An example radiation pattern is shown here (source:https://www.sciencedirect.com/topics/engineering/radiation-pattern):
 
 <img class="img-fluid" src="../img/antenna_rad.png">
-
+<hr>
 To automate this type of test on the current testbed of the liquid-metal electronics group, I created a few scripts that use PyVisa to communicate with various 
 programmable interfaces of the hardware equipment. For example, the motion controller we used to move the antenna 180 degrees in the azimuth direction is controlled
 using a GPIB interface, which is made possible using Serial.
@@ -27,7 +27,5 @@ using a GPIB interface, which is made possible using Serial.
 Hers a GPIB connector:
 <img class="img-fluid" src="../img/gpib.png">
 <hr>
-
-<hr>
-
+The current implementation of the automation scripts are made especially for the equipment in the POST 427 labratory. In the future I plan to add a front-end interface using tkinter to improve the quality-of-life of the application.
 Source: <a href="https://github.com/matthewtkouchi/automated_test_bed"><i class="large github icon "></i>matthewtkouchi/sorting-visualizer-tool</a>.
