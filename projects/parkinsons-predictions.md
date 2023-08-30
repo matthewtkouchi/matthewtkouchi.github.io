@@ -6,10 +6,10 @@ title: "AMP Parkinsons Prediction Using Random Forests"
 date: 2023-05-02
 published: true
 labels:
-  - Virtual Interface
-  - SCPI
-  - GPIB
-  - PyVisa
+  - Machine Learning
+  - Random Forests
+  - Supervised Learning
+  - Classification
 summary: "This project code contains multiple Jupyter Notebooks that imports open source data on proteins and peptides collected on medical patients. The goal of this project is to utilize this data to predict the MDS-UPDRS scores of the patients, which is a measure of the progression of Parkinsons disease."
 ---
 
@@ -23,7 +23,7 @@ After hyperparameter tuning using GridSearchCV, the following cross-validation a
 <img class="img-fluid" src="../img/cross_validation_score.png">
 <br>
 The jupyter notebook containing the random forest classifier approach, utilizing the sklearn library is labeled "random_forest_code-v3.ipynb".
-
-
+<hr>
+This project was completed with the help of Dr. Narayana Santhanam who guided me through the use of the random forest classifiers. Mainly, he gave me the idea of discretizing protein count data into classes, rather than performing regression. This helped immensly with the accuracy of the models since there was very little training data, so outliers caused large discrepancies. Through this project I gained an understanding of the random forest classifier classes from sklearn as well as various techniques involved with data organization using numpy and hyperparameter tuning using GridSearchCV.
 <hr>
 Source: <a href="https://github.com/matthewtkouchi/EE445_Kaggle_Peptides"><i class="large github icon "></i>matthewtkouchi/parkinsons-predictions</a>.
