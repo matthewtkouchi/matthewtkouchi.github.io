@@ -24,7 +24,7 @@ To automate this type of test on the current testbed of the liquid-metal electro
 programmable interfaces of the hardware equipment. For example, the motion controller we used to move the antenna 180 degrees in the azimuth direction is controlled
 using a GPIB interface, which is made possible using Serial.
 
-Hers a GPIB connector:
+Hers a GPIB connector: <br>
 <img class="img-fluid" src="../img/gpib.jpg">
 <hr>
 The current implementation of the automation scripts are made especially for the equipment in the POST 427 labratory. In the future I plan to add a front-end interface using tkinter to improve the quality-of-life of the application.
