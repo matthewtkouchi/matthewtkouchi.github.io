@@ -29,4 +29,4 @@ Hers a GPIB connector: <br>
 <hr>
 The current implementation of the automation scripts are made especially for the equipment in the POST 427 labratory. In the future I plan to add a front-end interface using tkinter to improve the quality-of-life of the application.
 <hr>
-Source: <a href="https://github.com/matthewtkouchi/automated_test_bed"><i class="large github icon "></i>matthewtkouchi/sorting-visualizer-tool</a>.
+Source: <a href="https://github.com/matthewtkouchi/automated_test_bed"><i class="large github icon "></i>matthewtkouchi/testbed-automation</a>.
