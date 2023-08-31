@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Multilingual Proficiency"
+title: "The Benefits of Multilingual Proficiency"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
 published: true
