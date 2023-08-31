@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Multilingual Proficiency"
 # All dates must be YYYY-MM-DD format!
-date: 2016-08-30
+date: 2023-08-30
 published: true
 labels:
   - Javascript
