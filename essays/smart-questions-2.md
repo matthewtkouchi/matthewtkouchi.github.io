@@ -11,7 +11,8 @@ labels:
   - StackOverflow
 ---
 
-<img class="rounded float-start pe-4" src="../img/dumb-questions.png", alt="Source: haarpia (2013). Word Press. Retrieved from https://haarpia.wordpress.com/tag/bart-simpson/">
+<img class="rounded float-start pe-4" src="../img/dumb-questions.png" alt="Source: haarpia (2013). Word Press. Retrieved from https://haarpia.wordpress.com/tag/bart-simpson/" />
+
 ## Stop Asking Dumb Questions
 Everyones heard the phrase, "There's no such things as a stupid question", but I can tell you from experience that this is a straight up lie. We've all probably been on the receiving end of one, and even more likely, have asked a ton of them. As a student that will soon be transitioning into industry, I find it increasingly important to break the habit of asking dumb questions, and so should you. Rarely does a dumb question result in useful answers, if it dictates an answer at all. It is imparative to learn how to recognize and dumb question and to stop yourself before asking it. Constructing a smart question may seem like a lot of effort, but it is neccesary to efficiently maximize the amount of information you can garner from people more knowledgable and less tolerable than you.
 
@@ -109,8 +110,9 @@ I was unable to find much poorly written questions without answers, so instead I
 
 Whenever a question is asked, the first thing one should do, is look it up. Manuals, Google, and forums hold the answers to most questions you can think of. Only when it gets very specialized, there is a chance it hasn't been asked before. 
 
+<img class="rounded float-start pe-4" src="../img/downvote.png">
 So while this question wasn't inherently poorly written, it still received a multitude of downvotes and stern comments because of the lack of effort taken to verify that it was a duplicate question. If you don't want your inquiries to be met with hostility such as this, write smart questions!
 
-<img class="rounded float-start pe-4" src="../img/downvote.png">
+
 
 
