@@ -12,7 +12,7 @@ labels:
 summary: "A React web app that I developed to visualize the employment of various sorting algorithms on unorganized data."
 ---
 
-<img class="img-fluid" src="../img/react_app.png">
+<img width="600px" class="img-fluid" src="../img/react_app.png"><br>
 
 This sorting algorithm visualizer tool was created over my sophmore summer to help myself and my friends visualize how various sorting algorithms worked to sort data in real-time, as we were taking an algorithms class at the time. By being able to visually see each step of the algorithms play out, it helps the user determine the effectivness of these algorithms. Most importantly, it allows the user to visually see how much a particular algorithms solving time scales with input size. <br>
 Below is a brief explanation of the capabilities of the app.
