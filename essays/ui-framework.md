@@ -22,7 +22,7 @@ For example, imagine a website with just a header and a paragraph of text. You c
 ## Recreation Task
 Take your simple website, and now raise it to the following: <br>
 
-<img width="500px" class="rounded float-start pe-4" src="../img/original_site.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/original_site.png">  <br>
 
 <small>Source: [Coffee Bean Hawaii](http://coffeebeanhawaii.com/).</small> <br>
 
@@ -32,7 +32,7 @@ Bootstrap is modular because each section of the page can be broken down into co
 
 By grouping content, it allowed me to adjust sizes and properties (e.g font-size, background colors, etc.) or individual elements, as well as elements as a group. I could do this directly from the class attribute, without making too many css style objects. In addition, if I needed to use the same type of container, but fill it with more rows, or different columns, I could just copy the first container, and change a few of the class attributes to account for those changes. This is the truly powerful advantage of using bootstrap, or any UI framework for that matter. Here is the finished recreation: <br>
 
-<img width="500px" class="rounded float-start pe-4" src="../img/recreation_site.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/recreation_site.png"> <br>
 
 ## Results
 In the end, I was unable to fully recreate the website I chose to work on. However, this was not necessarily a bad thing. One of the requirements for this assignment was that the website we chose to recreate could not be made using the bootstrap UI. This website was local, so it was made kind of messily, with base HTML/CSS. I think that is the reason it was so hard to recreate. A lot of the style of the site involved manually assigned heights and widths to the wrapper containers of the page. This made it hard to recreate in bootstrap, because manual sizing is rarely used, as the power of bootstrap comes from how it resizes based on screen sizes. I had to make the containers constantly sized using CSS to account for the original website, but it made it not as fluid and clean-looking in my opinion. Basically, I thought my version of the website looked better using bootstraps built in spacing, but I had to destroy it to meet the assignment requirements.
