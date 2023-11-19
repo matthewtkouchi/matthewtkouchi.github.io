@@ -11,8 +11,10 @@ labels:
   - ChatGPT
 ---
 <figure>
-  <img width="200px" class="rounded float-start pe-4" src="../img/AI-News-Lead.jpg" alt="AI News Lead Image">
-  <figcaption>Source: “How will artificial intelligence (AI) Power New Learning in Education?,” College of Education, https://education.illinois.edu/about/news-events/news/article/2023/02/08/the-power-of-ai-in-education (accessed Nov. 18, 2023). .</figcaption>
+  <img width="600px" class="rounded float-start pe-4" src="../img/AI-News-Lead.jpg" alt="AI News Lead Image">
+  <div>
+    <figcaption>Source: “How will artificial intelligence (AI) Power New Learning in Education?,” College of Education, https://education.illinois.edu/about/news events/news/article/2023/02/08/the-power-of-ai-in-education (accessed Nov. 18, 2023). .</figcaption>
+  </div>
 </figure>
 
 
