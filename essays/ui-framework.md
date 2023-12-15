@@ -39,4 +39,6 @@ Take your simple website, and now raise it to the following: <br>
 </div>
 
 ## Results
+<div>
 In the end, I was unable to fully recreate the website I chose to work on. However, this was not necessarily a bad thing. One of the requirements for this assignment was that the website we chose to recreate could not be made using the bootstrap UI. This website was local, so it was made kind of messily, with base HTML/CSS. I think that is the reason it was so hard to recreate. A lot of the style of the site involved manually assigned heights and widths to the wrapper containers of the page. This made it hard to recreate in bootstrap, because manual sizing is rarely used, as the power of bootstrap comes from how it resizes based on screen sizes. I had to make the containers constantly sized using CSS to account for the original website, but it made it not as fluid and clean-looking in my opinion. Basically, I thought my version of the website looked better using bootstraps built in spacing, but I had to destroy it to meet the assignment requirements.
+</div>
