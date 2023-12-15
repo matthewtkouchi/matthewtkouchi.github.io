@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/automation.jpg
+image: img/campus-concert/campus-concert-landing.png
 title: "Campus Concert"
 date: 2023-12-14
 published: true
@@ -12,10 +12,6 @@ labels:
   - Collaboration 
 summary: "Campus Concert is a group web application developed to connect musicians on the University of Hawaii at Manoa campus."
 ---
-
-<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
- <h1>Campus Concert</h1>
- <p><img class="ui large right floated image" src="/img/campus-concert/campus-concert-landing.png"></p>
 
 <p>At the University of Hawaii at Manoa, there are a plethora of of clubs and events associated with music every month. However, as a new student, or even as a casual music listener, it may be difficult to join the community on campus. Musical events are often locally advertised by word of mouth. For the most part, the schools emailing system tends to send out news to students based on their majors. As an engineering student, I can't remember the last time I got a reminder about an upcoming concert. This is the reasoning behind the creation of <a href="https://campus-concert.com">Campus Concert</a>. Along with a group of like-minded individuals, we created an app that allows students on campus to connect with others with similar tastes and to be kept up to date with the latest concerts and events.</p>
 
