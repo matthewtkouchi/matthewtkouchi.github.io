@@ -4,7 +4,7 @@ type: essay
 title: "Start Writing Neat Code "
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-18
-published: true
+published: false
 labels:
   - Javascript
   - ESLint
