@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="AMP Parkinsons Prediction Using Random Forests | Matthew Kouchi | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/matthewtkouchi.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Matthew Kouchi | Professional Portfolio">
+    <meta property="og:url" content="https://matthewtkouchi.github.io/projects/parkinsons-predictions.html">
+    <meta property="og:title" content="AMP Parkinsons Prediction Using Random Forests | Matthew Kouchi | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/matthewtkouchi.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>AMP Parkinsons Prediction Using Random Forests | Matthew Kouchi | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Matthew Kouchi</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">AMP Parkinsons Prediction Using Random Forests</h1>
+ <p>Parkinsons disease is a progressive brain disorder that affects the bodies abilitiy to communicate using its nerves. Since it is progressive, the symptoms worsen over time, and with no real cure for the disease, the best course of action against it involves early detection. With early detection of Parkinsons disease, precautions can be made and treatements can be implemented to slow the progression of this debilitating disease. The MDS-UPDRS scores of patients is a comprehensive score that accounts for motor and non-motor sympotms in patients with Parkinsons disease. By having access to protein and peptide data of individual patients that have Parkinsons disease, we can use patients that are long-time sufferers to gather information. This information is used to train a machine learning model to predict how newer patients protein counts compare. This way, we can predict if patients without Parkinsons are developing it, or at risk of developing it.</p>
+
+<hr />
+
+<p>This particular approach uses a random forest classifier. A random forest is a machine learning model that combines a large number of decision making trees. These trees decision trees (DT) are a form of supervised learning algorithms that are used for classification and regression models. The nodes of each tree represents a feature of data and they can branch to other nodes depending on the specific values of each training example. Once the leaf nodes are reached, a outcome or class label is set for the training example. For example, in this case, a peptide type can be a feature. Then it takes a branch depending on the count of peptides in the patient. If the peptide count lies in some quantized range, we can choose a certain class label. This quantization is how I turned a regression problem (due to the abstract amount of protein and peptide counts of each patient), into a discretized classifcation problem.</p>
+<hr />
+
+<p>For the current random forest implementation, I cleaned up the training data so that I only had the protein counts of patients that visited in month 0. The number of training samples starts in the thousands, but after trimming the samples to be only patients that visit on both month 0 and month, I was left with less than 60 samples. This means that my prediction accuracy took a drastic hit. However, this is due to a lack of training data. As more data is collected, the accuracy of the models will continue to improve. <br />
+After hyperparameter tuning using GridSearchCV, the following cross-validation accuracy scores were achieved for the prediction of UPDRS-2 and UPDRS-3 scores for patients in month 6. <br />
+<img class="img-fluid" src="../img/cross_validation_score.png" />
+<br />
+The jupyter notebook containing the random forest classifier approach, utilizing the sklearn library is labeled “random_forest_code-v3.ipynb”.</p>
+<hr />
+
+<p>This project was completed with the help of Dr. Narayana Santhanam who guided me through the use of the random forest classifiers. Mainly, he gave me the idea of discretizing protein count data into classes, rather than performing regression. This helped immensly with the accuracy of the models since there was very little training data, so outliers caused large discrepancies. Through this project I gained an understanding of the random forest classifier classes from sklearn as well as various techniques involved with data organization using numpy and hyperparameter tuning using GridSearchCV.</p>
+<hr />
+
+<p>Source: <a href="https://github.com/matthewtkouchi/EE445_Kaggle_Peptides"><i class="large github icon "></i>matthewtkouchi/parkinsons-predictions</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

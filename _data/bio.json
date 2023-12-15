@@ -1,0 +1,98 @@
+{
+  "basics": {
+    "name": "Matthew Kouchi",
+    "label": "Student",
+    "picture": "https://github.com/matthewtkouchi.png",
+    "email": "mkouchi2@hawaii.edu",
+    "phone": "808-772-8122",
+    "website": "https://matthewtkouchi.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Engineering at the University of Hawaii at Manoa. I expect to graduate in Fall, 2023.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "matthewtkouchi", "url": "http://github.com/matthewtkouchi" },
+      { "network": "linkedin", "username": "Matthew Kouchi", "url": "http://linkedin.com/in/matthewkouchi" }
+    ]
+  },
+  "interests": [
+    { "name": "Metasurfaces" },
+    { "name": "Communication Systems" },
+    { "name": "Machine Learning" },
+    { "name": "Embedded Systems" },
+    { "name": "Control Systems" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Python", "Javascript", "Assembly", "Verilog" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Ansys HFSS", "CST Studio Suite", "AutoCad", "Xilinx Vivado", "Git/GitHub", "DipTrace", "x86" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2019-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii at Manoa College of Engineering",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2022-08-21",
+      "endDate": "Present",
+      "summary": "Focus in research of microwave electronics incorporating liquid-metals",
+      "highlights": [
+        "Design and simulate microwave and mmwave electronics in full wave electromagnetic solvers",
+        "Fabricate microchannel devices using micromilling and photolithography techniques for use with small volumes on liquid metal",
+        "Create 2D layered photomasks for C-band designs using CAD softwares",
+        "Synchronize multiple testbed equipments using Virtual Instrument Software Architectures (VISA)",
+        "Collaborate with research partners in the publishing of journal and conference papers in the area of metasurfaces"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "LEO Club",
+      "position": "Member",
+      "startDate": "2015-08-18",
+      "endDate": "2019-05-01",
+      "summary": "Social volunteer work for future leaders",
+      "highlights": [
+        "Participated in community clean up efforts along Oahu's coast",
+        "Engaged in leadership building social events"
+      ]
+    },
+    {
+      "organization": "IEEE MTTS Student Chapter",
+      "position": "Vice President",
+      "startDate": "2022-08-30",
+      "endDate": "Present",
+      "summary": "Microwaves Theory and Techniques Society student chapter at the University of Hawaii at Manoa",
+      "highlights": [
+        "Helped organize speaker seminars with industry professionals",
+        "Collaborated with the main Hawaii chapter to host social events"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2022-Present",
+      "awarder": "University of Hawaii",
+      "summary": "Awarded to students with an exceptional academic record for maintaining above a 3.5 GPA"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
